@@ -1,0 +1,6 @@
+create database bancosoftpar;
+use bancostw;
+create table ingredientes(
+Id_Ingredientes int not null unique auto_increment primary key,
+Nome_Ingredientes varchar (200)
+);
